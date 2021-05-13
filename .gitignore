@@ -1,3 +1,18 @@
+#Java build files
+target/
+
+#IDEA files
+.idea/
 *.iml
-/target
-env_local.properties
+
+#Eclipse files
+*.classpath
+*.project
+.settings/
+
+#other files
+*.DS_Store
+*.log
+*.iws
+*.ipr
+*.bak
