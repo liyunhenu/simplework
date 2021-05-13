@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+
+<configuration debug="false">
+	<!-- 上下文名称:应用名称_实例号 , 用于一个虚拟机部署两个tesla应用时区分应用,同时logback的jmx目录就是以contextName命名 -->
+	<contextName>demo1</contextName>
+	<!-- 使用maven profile替换logHome -->
+	<property name="logHome" value="/Users/liyun/logs/${CONTEXT_NAME}/tesla_${CONTEXT_NAME}" scope="context"/>
+	<!--
+    <property name="logHome" value="/Users/waihing/logs/${CONTEXT_NAME}/tesla_${CONTEXT_NAME}" scope="context"/>
+	-->
+
+    <!-- JMX监控 -->
+	<jmxConfigurator />
+
+	<!--生产日志卡号证件脱敏,长度过长截断等配置-->
+	<!--{release.start}
+    <conversionRule conversionWord="m" converterClass="com.cmbcc.credit.logext.ComplexMessageConverter"></conversionRule>
+	{release.end}-->
+
+	<!-- SQL监控日志 -->
+	<appender name="SQLMONITER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${logHome}/%d{yyyy-MM-dd}/sql_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+					class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>50MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<Pattern>
+				%n%d{yyyy-MM-dd HH:mm:ss.SSS} %X{localAddr} %X{localPort} %-5level %-4r %thread %X{productionMode} %X{method} %X{requestURIWithQueryString} [ %logger{35} %method %line - %m%n
+			</Pattern>
+		</encoder>
+	</appender>
+
+	<!-- 控制台日志 -->
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<!--<filter class="com.tesla.framework.logext.ConsoleLogFilter">-->
+			<!--<consoleLogEnable>false</consoleLogEnable>-->
+		<!--</filter>-->
+		<!--<filter class="com.tesla.framework.logext.ConsoleLogFilter">
+			&lt;!&ndash;测试环境里,请不要去掉下面的几个注释内容&ndash;&gt;
+			&lt;!&ndash;{dev.start}&ndash;&gt;
+			<consoleLogEnable>true</consoleLogEnable>
+			&lt;!&ndash;{dev.end}&ndash;&gt;
+			&lt;!&ndash;alpha环境&ndash;&gt;
+			&lt;!&ndash;{release.start}
+            <consoleLogEnable>false</consoleLogEnable>
+            {release.end}&ndash;&gt;
+			&lt;!&ndash;生产环境配置&ndash;&gt;
+			&lt;!&ndash;{release.start}
+           <consoleLogEnable>false</consoleLogEnable>
+            {release.end}&ndash;&gt;
+		</filter>-->
+		<layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern><![CDATA[
+				%n%d{yyyy-MM-dd HH:mm:ss.SSS} %X{localAddr} %X{localPort} %-5level %-4r %thread %X{productionMode} %X{method} %X{requestURIWithQueryString} [f=%X{functionId}, tid=%X{transactionId}, ip=%X{remoteAddr}, sid=%X{cookie.cmbcId}]%n %logger{35} %method %line - %m%n
+            ]]></pattern>
+        </layout>
+	</appender>
+	
+	<!-- 
+	 根据functionGroup及渠道来拆封日志 方式一(用discriminator实现只能用同样的pattern):
+	1. 如果 有functionGroupId则将日志打到${logHome}/%d{yyyy-MM-dd}/${functionGroupDir}/${functionGroupId}_%d{yyyy-MM-dd}.%i.log
+	2. 如果有channelId则将日志打到 ${logHome}/%d{yyyy-MM-dd}/${channelDir}/${channelId}_%d{yyyy-MM-dd}.%i.log
+	3. 如果有两者都没有则将日志打到 ${logHome}/%d{yyyy-MM-dd}/${defaultValue}_%d{yyyy-MM-dd}.%i.log
+	-->
+	<appender name="SIFT_FUNCTION_GROUP_OR_CHANNEL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+				<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+					<fileNamePattern>${logHome}/%d{yyyy-MM-dd}/application_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+					<timeBasedFileNamingAndTriggeringPolicy
+						class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+						<maxFileSize>50MB</maxFileSize>
+					</timeBasedFileNamingAndTriggeringPolicy>
+				</rollingPolicy>
+				<encoder>
+					<Pattern>
+						%n%d{yyyy-MM-dd HH:mm:ss.SSS} %X{localAddr} %X{localPort} %-5level %-4r %thread %X{productionMode} %X{method} %X{requestURIWithQueryString} [f=%X{functionId}, tid=%X{transactionId}, ip=%X{remoteAddr}, sid=%X{cookie.cmbcId}]%n %logger{35} %method %line - %m%n
+					</Pattern>
+				</encoder>
+	</appender>
+	
+	<!-- 错误及警告日志 -->
+	<appender name="ERROR_WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>WARN</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${logHome}/%d{yyyy-MM-dd}/error_warn_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>50MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<Pattern>
+				%n%d{yyyy-MM-dd HH:mm:ss.SSS} %X{localAddr} %X{localPort} %-5level %-4r %thread %X{productionMode} %X{method} %X{requestURIWithQueryString} [f=%X{functionId}, tid=%X{transactionId}, ip=%X{remoteAddr}, sid=%X{cookie.cmbcId}]%n %logger{35} %method %line - %m%n
+			</Pattern>
+		</encoder>
+	</appender>
+
+	
+	<!-- 请求/返回报文日志 COMMON_LOG_TRANS -->
+	<appender name="reqAndrespLoger" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${logHome}/%d{yyyy-MM-dd}/reqAndrespLoger_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>50MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<Pattern>
+				%n%d{yyyy-MM-dd HH:mm:ss.SSS} %X{localAddr} %X{localPort} %-5level %-4r %thread %X{productionMode} %X{method} %X{requestURIWithQueryString} [f=%X{functionId}, tid=%X{transactionId}, ip=%X{remoteAddr}, sid=%X{cookie.cmbcId}]%n %logger{35} %method %line - %m%n
+			</Pattern>
+		</encoder>
+	</appender>
+
+	<logger name="sqlCost" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="SQLMONITER"/>
+		<appender-ref ref="SIFT_FUNCTION_GROUP_OR_CHANNEL"/>
+	</logger>
+
+	
+	<!--================== 第三方logger级别配置  begin ==================-->
+	<!--====== sql log begin ====== -->
+	<logger name="java.sql">
+		<level value="INFO" />
+	</logger>
+	
+	<logger name="org.mybatis">
+		<level value="INFO" />
+	</logger>
+	
+	<logger name="sqlLog">
+		<level value="INFO" />
+	</logger>
+	
+	<logger name="com.cmbcc.credit">
+		<level value="INFO"/>
+	</logger>
+	
+	<logger name="com.tesla">
+		<level value="WARN"/>
+	</logger>
+	<!--======= sql log end =======-->
+	
+	<logger name="org.apache">
+		<level value="ERROR" />
+	</logger>
+	
+	<logger name="org.castor">
+		<level value="ERROR" />
+	</logger>
+	
+	<logger name="org.exolab.castor">
+		<level value="ERROR" />
+	</logger>
+	
+	<logger name="org.springframework">
+		<level value="WARN" />
+	</logger>
+	
+	<logger name="com.alibaba.citrus.springext.support.context">
+		<level value="WARN" />
+	</logger>
+	
+	<logger name="reqAndrespLoger" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="reqAndrespLoger" />
+	</logger>
+	
+	<!--================== 第三方logger配置  end ==================-->
+
+	<!-- 根配置 -->
+	<root level="INFO">
+
+		<!--测试环境里,请不要去掉下面的几个注释内容-->
+		<!--{dev.start}-->
+		<appender-ref ref="CONSOLE" />
+		<!--{dev.end}-->
+		<!--alpha环境-->
+		<!--{alpha.start}
+       <appender-ref ref="SIFT_FUNCTION_GROUP_OR_CHANNEL" />
+        {alpha.end}-->
+
+		<!--生产环境配置-->
+		<!--{release.start}
+      	<appender-ref ref="SIFT_FUNCTION_GROUP_OR_CHANNEL" />
+        {release.end}-->
+
+
+		<!-- 注意: 请在上生产或性能测试前将CONSOLE appender-ref注释掉 -->
+		<!-- <appender-ref ref="CONSOLE" /> -->
+		<!-- 根据functionGroup及渠道来拆封日志 方式一 时配置下面这个appender-ref -->
+
+
+		<appender-ref ref="ERROR_WARN" />
+	</root>
+</configuration>
