@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="simpleframework:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea732cb4-2f15-4d20-a21d-bf6e8a47f932" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dtYNHAcNMJB7ANHR1PR3vLmzq7" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.imooc.socket" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TimerTest">
+    <configuration name="CountSortImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.sort.CountSortImp" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSortImp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.sort.CountSortImp1" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSortImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.sort.HeapSortImp" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dp.Question3" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.timer.TimerTest" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.timer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simpleframework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.serverlet.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="simpleframework:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/simpleframework" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_simpleframework_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64559" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="simpleframework:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CountSortImp" />
+      <item itemvalue="Application.CountSortImp1" />
+      <item itemvalue="Application.HeapSortImp" />
+      <item itemvalue="Application.Question3" />
+      <item itemvalue="Application.TimerTest" />
+      <item itemvalue="Spring Boot.myApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TimerTest" />
+        <item itemvalue="Application.Question3" />
+        <item itemvalue="Application.CountSortImp1" />
+        <item itemvalue="Application.HeapSortImp" />
+        <item itemvalue="Application.CountSortImp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea732cb4-2f15-4d20-a21d-bf6e8a47f932" name="Default Changelist" comment="" />
+      <created>1593245814067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593245814067</updated>
+      <workItem from="1593245815495" duration="3562000" />
+      <workItem from="1593267480857" duration="2697000" />
+      <workItem from="1593678583979" duration="9479000" />
+      <workItem from="1593932867842" duration="885000" />
+      <workItem from="1594195400279" duration="722000" />
+      <workItem from="1595060969087" duration="4215000" />
+      <workItem from="1595076636082" duration="1660000" />
+      <workItem from="1595991567734" duration="4982000" />
+      <workItem from="1596256948635" duration="7980000" />
+      <workItem from="1596355871757" duration="1232000" />
+      <workItem from="1597321666207" duration="3632000" />
+      <workItem from="1597479802878" duration="14501000" />
+      <workItem from="1598799126752" duration="3536000" />
+      <workItem from="1600307824036" duration="3494000" />
+      <workItem from="1600789487696" duration="531000" />
+      <workItem from="1601192813483" duration="1429000" />
+      <workItem from="1601347520420" duration="9238000" />
+      <workItem from="1602208419781" duration="873000" />
+      <workItem from="1602210348654" duration="2389000" />
+      <workItem from="1603330074479" duration="12414000" />
+      <workItem from="1603523512057" duration="6339000" />
+      <workItem from="1603719375832" duration="4190000" />
+      <workItem from="1603978963086" duration="1407000" />
+      <workItem from="1606441258666" duration="7188000" />
+      <workItem from="1608098958019" duration="5000" />
+      <workItem from="1609307669022" duration="1257000" />
+      <workItem from="1610520301462" duration="31000" />
+      <workItem from="1610520348846" duration="1839000" />
+      <workItem from="1611538792638" duration="573000" />
+      <workItem from="1611813081794" duration="60000" />
+      <workItem from="1611883290075" duration="1036000" />
+      <workItem from="1612753705838" duration="66000" />
+      <workItem from="1613377473695" duration="9420000" />
+      <workItem from="1613538721850" duration="1952000" />
+      <workItem from="1614075782607" duration="23522000" />
+      <workItem from="1615274952863" duration="463000" />
+      <workItem from="1616814132996" duration="1698000" />
+      <workItem from="1616836782361" duration="627000" />
+      <workItem from="1617339668161" duration="63000" />
+      <workItem from="1617519917874" duration="1548000" />
+      <workItem from="1617521601538" duration="666000" />
+      <workItem from="1617603590295" duration="224000" />
+      <workItem from="1617678508041" duration="1742000" />
+      <workItem from="1617680271539" duration="1188000" />
+      <workItem from="1617704911952" duration="642000" />
+      <workItem from="1617720019573" duration="819000" />
+      <workItem from="1617776371856" duration="1791000" />
+      <workItem from="1617778191433" duration="861000" />
+      <workItem from="1617782171184" duration="1736000" />
+      <workItem from="1617784535380" duration="1702000" />
+      <workItem from="1617860221958" duration="317000" />
+      <workItem from="1617862057337" duration="468000" />
+      <workItem from="1617870129609" duration="467000" />
+      <workItem from="1617933348164" duration="1531000" />
+      <workItem from="1617935362843" duration="1481000" />
+      <workItem from="1617937622641" duration="273000" />
+      <workItem from="1618035648947" duration="102000" />
+      <workItem from="1618127724132" duration="313000" />
+      <workItem from="1618296070544" duration="550000" />
+      <workItem from="1618367638753" duration="1553000" />
+      <workItem from="1618456061707" duration="612000" />
+      <workItem from="1618467037361" duration="546000" />
+      <workItem from="1618470276179" duration="626000" />
+      <workItem from="1618472375988" duration="1193000" />
+      <workItem from="1618474514137" duration="948000" />
+      <workItem from="1618476337362" duration="1335000" />
+      <workItem from="1618477697571" duration="525000" />
+      <workItem from="1618535514312" duration="1189000" />
+      <workItem from="1618537622971" duration="1662000" />
+      <workItem from="1618539432168" duration="1485000" />
+      <workItem from="1618541182101" duration="414000" />
+      <workItem from="1618886097506" duration="309000" />
+      <workItem from="1618972314499" duration="230000" />
+      <workItem from="1619147633598" duration="186000" />
+      <workItem from="1619281544885" duration="598000" />
+      <workItem from="1620609951043" duration="813000" />
+      <workItem from="1620612135711" duration="444000" />
+      <workItem from="1620619082954" duration="706000" />
+      <workItem from="1620627299494" duration="1334000" />
+      <workItem from="1620629533359" duration="1397000" />
+      <workItem from="1620650706198" duration="598000" />
+      <workItem from="1620652527867" duration="862000" />
+      <workItem from="1620655444965" duration="1569000" />
+      <workItem from="1620657665284" duration="1756000" />
+      <workItem from="1620659480761" duration="1259000" />
+      <workItem from="1620661547080" duration="658000" />
+      <workItem from="1620664320763" duration="536000" />
+      <workItem from="1620703934844" duration="1396000" />
+      <workItem from="1620716704177" duration="1040000" />
+      <workItem from="1620720096488" duration="327000" />
+      <workItem from="1620732354949" duration="121000" />
+      <workItem from="1620781708523" duration="658000" />
+      <workItem from="1620804930013" duration="1095000" />
+      <workItem from="1620871712467" duration="597000" />
+      <workItem from="1620885954576" duration="905000" />
+      <workItem from="1620887799595" duration="1327000" />
+      <workItem from="1620889613293" duration="1237000" />
+      <workItem from="1620894348942" duration="72000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question2.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question3.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question3.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question4.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cmbcc/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cmbcc/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dp/Question3.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dp/Question3.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dp/Question3.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question4.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question4.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question4.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question4.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Question4.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/sort/QuickSortImp.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/linkedlist/ReverseLinkedListImp.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/sort/CountSortImp1.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/simpleframework$Question4.ic" NAME="Question4 Coverage Results" MODIFIED="1614221223262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.leetcode.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/simpleframework$Question2.ic" NAME="Question2 Coverage Results" MODIFIED="1597483136178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.leetcode.*</FILTER>
+    </SUITE>
+  </component>
+</project>
