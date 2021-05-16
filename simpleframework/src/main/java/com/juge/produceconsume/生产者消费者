@@ -1,0 +1,9 @@
+生产者消费者
+
+条件队列
+1.最朴素方法，wait() notify() notifyAll()
+while(条件){
+wait()
+}
+do sth
+过早提醒，信号丢失，信号拦截
