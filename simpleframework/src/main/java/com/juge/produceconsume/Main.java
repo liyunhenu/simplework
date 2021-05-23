@@ -68,13 +68,13 @@ public class Main {
     }
 
 
-    public static void main(String[] arg) throws InterruptedException {
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(5, 10, 10000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(100), new CustomizableThreadFactory("myThread"), new ThreadPoolExecutor.AbortPolicy());
+    public static void main(String[] arg) throws Exception {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(10, 10, 10000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(100), new CustomizableThreadFactory("myThread"), new ThreadPoolExecutor.AbortPolicy());
         Main main=new Main();
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 5; i++) {
             threadPoolExecutor.submit(main.newConsumeTask());
         }
-        Thread.sleep(1000);
+        //Thread.sleep(1000);
         System.out.println("消费线程已经等待就绪");
         for (int i = 0; i < 5; i++) {
             threadPoolExecutor.submit(main.newProduceTask());
@@ -86,7 +86,45 @@ public class Main {
 
         }
 
-    }
 
+        final Stack stack=new Stack();
+        AtomicInteger integer=new AtomicInteger(0);
+        /*System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);*/
+
+        /*for (int i = 0; i < 5; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        //System.out.println();
+                        System.out.println("pop:"+stack.pop());
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
+        }
+        Thread.sleep(1000);
+        System.out.println("消费线程已经等待就绪");
+        for (int i = 0; i < 5; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    Integer input=integer.getAndIncrement();
+                    System.out.println("push:"+input);
+                    stack.push(input);
+                }
+            }).start();
+
+        }
+
+        Thread.sleep(5000);
+        Thread.sleep(1000);*/
+
+    }
 
 }
