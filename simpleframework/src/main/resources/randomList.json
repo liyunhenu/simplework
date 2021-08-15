@@ -1,0 +1,600 @@
+{
+    "code": 200,
+    "data": [{
+        "answerId": 862,
+        "answerData": {
+            "qstn": "1985\u5E745\u6708\uFF0C\u4E2D\u592E\u300A\u5173\u4E8E\u6559\u80B2\u4F53\u5236\u6539\u9769\u7684\u51B3\u5B9A\u300B\u8981\u6709\u6B65\u9AA4\u5730\u5B9E\u884C(\u00A0\u00A0)\u4E49\u52A1\u6559\u80B2\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "9\u5E74\u5236"
+            }, {
+                "score": 0,
+                "title": "10\u5E74\u5236"
+            }, {
+                "score": 0,
+                "title": "12\u5E74\u5236"
+            }, {
+                "score": 0,
+                "title": "7\u5E74\u5236"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 786,
+        "answerData": {
+            "qstn": "\u4E2D\u592E\u7EA2\u519B\uFF08\u7EA2\u519B\u9655\u7518\u652F\u961F\uFF09\u7A81\u7834\u4E86\u5929\u9669\u814A\u5B50\u53E3\uFF0C\u5728\u7518\u8083\u5B95\u660C\u53BF(\u00A0\u00A0)\uFF0C\u5F97\u5230\u4E86\u9655\u5317\u6709\u5218\u5FD7\u4E39\u9886\u5BFC\u7684\u7EA2\u519B\u548C\u6839\u636E\u5730\u7684\u6D88\u606F\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "\u54C8\u8FBE\u94FA\u9547"
+            }, {
+                "score": 0,
+                "title": "\u699C\u7F57\u9547"
+            }, {
+                "score": 0,
+                "title": "\u5434\u8D77\u9547"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 820,
+        "answerData": {
+            "qstn": "\u6C5F\u6CFD\u6C11\u5728(\u00A0\u00A0)\u5E74\u6625\u63D0\u51FA\uFF0C\u53EA\u8981\u6211\u4EEC\u515A\u59CB\u7EC8\u6210\u4E3A\u4E2D\u56FD\u5148\u8FDB\u793E\u4F1A\u751F\u4EA7\u529B\u53D1\u5C55\u8981\u6C42\u3001\u4E2D\u56FD\u5148\u8FDB\u6587\u5316\u524D\u8FDB\u65B9\u5411\u3001\u4E2D\u56FD\u6700\u5E7F\u5927\u4EBA\u6C11\u6839\u672C\u5229\u76CA\u7684\u5FE0\u5B9E\u4EE3\u8868\uFF0C\u6211\u4EEC\u515A\u5C31\u80FD\u6C38\u8FDC\u7ACB\u4E8E\u4E0D\u8D25\u4E4B\u5730\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "1999"
+            }, {
+                "score": 1,
+                "title": "2000"
+            }, {
+                "score": 0,
+                "title": "2001"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 813,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\u5E7410\u6708\uFF0C\u515A\u7684\u5341\u56DB\u5C4A\u516D\u4E2D\u5168\u4F1A\u5BF9\u65B0\u5F62\u52BF\u4E0B\u7684\u793E\u4F1A\u4E3B\u4E49\u7CBE\u795E\u6587\u660E\u5EFA\u8BBE\u4F5C\u4E86\u5177\u4F53\u90E8\u7F72\u548C\u89C4\u5212\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "1995"
+            }, {
+                "score": 0,
+                "title": "1994"
+            }, {
+                "score": 1,
+                "title": "1996"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 808,
+        "answerData": {
+            "qstn": "\u5341\u4E00\u5C4A\u4E09\u4E2D\u5168\u4F1A\u5F00\u8F9F\u7684\u5EFA\u8BBE\u6709\u4E2D\u56FD\u7279\u8272\u793E\u4F1A\u4E3B\u4E49\u9053\u8DEF\uFF0C\u662F\u515A\u5728\u9A6C\u514B\u601D\u4E3B\u4E49\u4E0E\u4E2D\u56FD\u5B9E\u8DF5\u76F8\u7ED3\u5408\u8FC7\u7A0B\u4E2D\uFF0C\u5B9E\u73B0\u7684(\u00A0\u00A0)\u6B21\u5386\u53F2\u6027\u98DE\u8DC3\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u7B2C\u4E00\u3000"
+            }, {
+                "score": 1,
+                "title": "\u7B2C\u4E8C\u3000"
+            }, {
+                "score": 0,
+                "title": "\u7B2C\u4E09"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 795,
+        "answerData": {
+            "qstn": "1978\u5E7412\u6708\uFF0C\u515A\u7684(\u00A0\u00A0)\u662F\u5EFA\u56FD\u4EE5\u6765\u515A\u7684\u5386\u53F2\u4E0A\u5177\u6709\u6DF1\u8FDC\u610F\u4E49\u7684\u4F1F\u5927\u8F6C\u6298\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u4E2D\u592E\u5DE5\u4F5C\u4F1A\u8BAE\u3000"
+            }, {
+                "score": 1,
+                "title": "\u5341\u4E00\u5C4A\u4E09\u4E2D\u5168\u4F1A"
+            }, {
+                "score": 0,
+                "title": "\u5341\u4E8C\u5927"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 837,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\u5143\u65E6\u8D77\uFF0C\u4E2D\u7F8E\u4E24\u56FD\u6B63\u5F0F\u5EFA\u7ACB\u5916\u4EA4\u5173\u7CFB\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "1979\u5E74"
+            }, {
+                "score": 0,
+                "title": "1980\u5E74\u3000"
+            }, {
+                "score": 0,
+                "title": "1981\u5E74"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 793,
+        "answerData": {
+            "qstn": "\u515A\u7684\u5404\u7EA7\u7EAA\u5F8B\u68C0\u67E5\u59D4\u5458\u4F1A\u7684\u4E3B\u8981\u4EFB\u52A1\u662F\uFF1A\u7EF4\u62A4\u515A\u7684\u7AE0\u7A0B\u548C\u5176\u4ED6\u515A\u5185\u6CD5\u89C4\uFF0C\u534F\u52A9(\u00A0\u00A0)\u52A0\u5F3A\u515A\u98CE\u5EFA\u8BBE\uFF0C\u68C0\u67E5\u515A\u7684\u8DEF\u7EBF\u3001\u65B9\u9488\u3001\u653F\u7B56\u548C\u51B3\u8BAE\u7684\u6267\u884C\u60C5\u51B5\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u540C\u7EA7\u653F\u5E9C\u3000"
+            }, {
+                "score": 0,
+                "title": "\u540C\u7EA7\u515A\u7EC4\u7EC7\u3000"
+            }, {
+                "score": 1,
+                "title": "\u515A\u7684\u59D4\u5458\u4F1A"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 861,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\uFF0C\u4E2D\u82F1\u4E24\u56FD\u653F\u5E9C\u53D1\u8868\u8054\u5408\u58F0\u660E\u5BA3\u5E03\uFF0C\u4E2D\u56FD\u653F\u5E9C\u51B3\u5B9A\u57281997\u5E747\u67081\u65E5\u5BF9\u9999\u6E2F\u6062\u590D\u884C\u4F7F\u4E3B\u6743\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "1982\u5E749\u670826\u65E5"
+            }, {
+                "score": 0,
+                "title": "1983\u5E749\u670826\u65E5"
+            }, {
+                "score": 1,
+                "title": "1984\u5E749\u670826\u65E5"
+            }, {
+                "score": 0,
+                "title": "1986\u5E749\u670826\u65E5"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 866,
+        "answerData": {
+            "qstn": "\u515A\u7684\u7EAA\u5F8B\u201C\u56DB\u4E2A\u670D\u4ECE\u201D\u6700\u91CD\u8981\u7684\u662F(\u00A0\u00A0)\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "\u4E2A\u4EBA\u670D\u4ECE\u7EC4\u7EC7"
+            }, {
+                "score": 0,
+                "title": "\u4E0B\u7EA7\u670D\u4ECE\u4E0A\u7EA7"
+            }, {
+                "score": 0,
+                "title": "\u5168\u515A\u670D\u4ECE\u4E2D\u592E"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 824,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\u7684\u79D1\u5B66\u5185\u6DB5\u4F53\u73B0\u5728\uFF1A\u7B2C\u4E00\u8981\u4E49\u662F\u53D1\u5C55\uFF0C\u6838\u5FC3\u662F\u4EE5\u4EBA\u4E3A\u672C\uFF0C\u57FA\u672C\u8981\u6C42\u662F\u5168\u9762\u534F\u8C03\u53EF\u6301\u7EED\uFF0C\u6839\u672C\u65B9\u6CD5\u662F\u7EDF\u7B79\u517C\u987E\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u6BDB\u6CFD\u4E1C\u53D1\u5C55\u8BBA\u3000"
+            }, {
+                "score": 0,
+                "title": "\u9093\u5C0F\u5E73\u53D1\u5C55\u7406\u8BBA\u3000"
+            }, {
+                "score": 0,
+                "title": "\u4E09\u4E2A\u4EE3\u8868\u91CD\u8981\u601D\u60F3\u3000"
+            }, {
+                "score": 0,
+                "title": "\u79D1\u5B66\u53D1\u5C55\u89C2"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 802,
+        "answerData": {
+            "qstn": "\u6211\u56FD\u5E9F\u9664\u4EBA\u6C11\u516C\u793E\u3001\u5EFA\u7ACB\u4E61\uFF08\u9547\uFF09\u653F\u5E9C\u4F5C\u4E3A\u57FA\u5C42\u653F\u6743\u7684\u5DE5\u4F5C\u5230(\u00A0\u00A0)\u5E74\u6625\u5168\u90E8\u7ED3\u675F\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "1983"
+            }, {
+                "score": 0,
+                "title": "1984"
+            }, {
+                "score": 1,
+                "title": "1985"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 819,
+        "answerData": {
+            "qstn": "\u4ECE1998\u5E7411\u6708\u5F00\u59CB\uFF0C\u5168\u515A\u5728(\u00A0\u00A0)\u4EE5\u4E0A\u515A\u653F\u9886\u5BFC\u73ED\u5B50\u3001\u9886\u5BFC\u5E72\u90E8\u4E2D\u5F00\u5C55\u4E86\u4EE5\u8BB2\u5B66\u4E60\u3001\u8BB2\u653F\u6CBB\u3001\u8BB2\u6B63\u6C14\u4E3A\u4E3B\u8981\u5185\u5BB9\u7684\u515A\u6027\u515A\u98CE\u6559\u80B2\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u7701\u90E8\u7EA7\u3000"
+            }, {
+                "score": 1,
+                "title": "\u53BF\u5904\u7EA7"
+            }, {
+                "score": 0,
+                "title": "\u79D1\u7EA7"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 853,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\uFF0C\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u5BF9\u9999\u6E2F\u6062\u590D\u884C\u4F7F\u4E3B\u6743\uFF0C\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u9999\u6E2F\u7279\u522B\u884C\u653F\u533A\u6B63\u5F0F\u6210\u7ACB\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "1997\u5E747\u67081\u65E5"
+            }, {
+                "score": 0,
+                "title": "1984\u5E7412\u670819\u65E5"
+            }, {
+                "score": 0,
+                "title": "1998\u5E747\u67081\u65E5"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 787,
+        "answerData": {
+            "qstn": "\u515A\u7684\u57FA\u5C42\u7EC4\u7EC7\u662F\u515A\u5728\u793E\u4F1A\u57FA\u5C42\u7EC4\u7EC7\u4E2D\u7684\u6218\u6597\u5821\u5792\uFF0C\u662F\u515A\u7684(\u00A0\u00A0)\u548C\u6218\u6597\u529B\u7684\u57FA\u7840\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u4E2D\u5FC3\u5DE5\u4F5C\u3000"
+            }, {
+                "score": 1,
+                "title": "\u5168\u90E8\u5DE5\u4F5C"
+            }, {
+                "score": 0,
+                "title": "\u4E3B\u8981\u4EFB\u52A1"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 854,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\u53F7\u53EC\uFF0C\u9AD8\u4E3E\u9093\u5C0F\u5E73\u7406\u8BBA\u4F1F\u5927\u65D7\u5E1C\uFF0C\u628A\u5EFA\u8BBE\u6709\u4E2D\u56FD\u7279\u8272\u793E\u4F1A\u4E3B\u4E49\u4E8B\u4E1A\u5168\u9762\u63A8\u541121\u4E16\u7EAA\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "\u4E2D\u56FD\u5171\u4EA7\u515A\u7B2C\u5341\u4E94\u6B21\u5168\u56FD\u4EE3\u8868\u5927\u4F1A"
+            }, {
+                "score": 0,
+                "title": "\u5341\u4E94\u5C4A\u4E09\u4E2D\u5168\u4F1A\u3000"
+            }, {
+                "score": 0,
+                "title": "\u5341\u56DB\u5C4A\u516D\u4E2D\u5168\u4F1A"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 834,
+        "answerData": {
+            "qstn": "\u300A\u56FD\u8425\u5DE5\u5382\u5382\u957F\u5DE5\u4F5C\u6682\u884C\u6761\u4F8B\u300B\u662F(\u00A0\u00A0)\u5E741\u67082\u65E5\u9881\u53D1\u7684\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "1981"
+            }, {
+                "score": 1,
+                "title": "1982"
+            }, {
+                "score": 0,
+                "title": "1983"
+            }, {
+                "score": 0,
+                "title": "1984"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 807,
+        "answerData": {
+            "qstn": "\u5341\u4E09\u5927\u786E\u5B9A\u4E86\u6211\u56FD\u7ECF\u6D4E\u53D1\u5C55\u201C\u4E09\u6B65\u8D70\u201D\u7684\u6218\u7565\u90E8\u7F72\uFF0C\u5176\u4E2D\u7B2C\u4E09\u6B65\u662F\u5230\u4E8C\u5341\u4E00\u4E16\u7EAA\u4E2D\u53F6\uFF0C\u4EBA\u5747\u56FD\u6C11\u751F\u4EA7\u603B\u503C\u8FBE\u5230(\u00A0\u00A0)\u56FD\u5BB6\u6C34\u5E73\uFF0C\u4EBA\u6C11\u751F\u6D3B\u6BD4\u8F83\u5BCC\u88D5\uFF0C\u57FA\u672C\u5B9E\u73B0\u73B0\u4EE3\u5316\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u521D\u6B65\u53D1\u8FBE\u3000"
+            }, {
+                "score": 1,
+                "title": "\u4E2D\u7B49\u53D1\u8FBE"
+            }, {
+                "score": 0,
+                "title": "\u5145\u5206\u53D1\u8FBE"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 848,
+        "answerData": {
+            "qstn": "(\u00A0\u00A0)\u5E74\u6625\u5929\uFF0C\u9093\u5C0F\u5E73\u89C6\u5BDF\u6B66\u660C\u3001\u6DF1\u5733\u3001\u73E0\u6D77\u3001\u4E0A\u6D77\u7B49\u5730\uFF0C\u6CBF\u9014\u53D1\u8868\u4E00\u7CFB\u5217\u91CD\u8981\u8C08\u8BDD\uFF0C\u5BF9\u515A\u7684\u5341\u4E00\u5C4A\u4E09\u4E2D\u5168\u4F1A\u4EE5\u6765\u7684\u4E30\u5BCC\u7ECF\u9A8C\u4F5C\u4E86\u79D1\u5B66\u603B\u7ED3\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "1992"
+            }, {
+                "score": 0,
+                "title": "1990"
+            }, {
+                "score": 0,
+                "title": "1988"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 818,
+        "answerData": {
+            "qstn": "2001\u5E74\u4EE5\u6765\uFF0C\u515A\u4E2D\u592E\u8981\u6C42\uFF0C\u628A\u4F9D\u6CD5\u6CBB\u56FD\u548C\u4EE5\u5FB7\u6CBB\u56FD\u7ED3\u5408\u8D77\u6765\uFF0C\u52AA\u529B\u5EFA\u7ACB\u9002\u5E94\u793E\u4F1A\u4E3B\u4E49\u5E02\u573A\u7ECF\u6D4E\u53D1\u5C55\u7684(\u00A0\u00A0)\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u601D\u60F3\u9053\u5FB7\u57FA\u7840\u3000"
+            }, {
+                "score": 0,
+                "title": "\u601D\u60F3\u9053\u5FB7\u98CE\u5C1A\u3000"
+            }, {
+                "score": 1,
+                "title": "\u601D\u60F3\u9053\u5FB7\u4F53\u7CFB"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 801,
+        "answerData": {
+            "qstn": "1982\u5E7412\u6708\u901A\u8FC7\u7684\u65B0\u5BAA\u6CD5\u89C4\u5B9A\uFF0C\u56FD\u5BB6\u9886\u5BFC\u4EBA\u8FDE\u7EED\u4EFB\u804C\u4E0D\u5F97\u8D85\u8FC7(\u00A0\u00A0)\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "\u4E24\u5C4A"
+            }, {
+                "score": 0,
+                "title": "\u4E09\u5C4A\u3000"
+            }, {
+                "score": 0,
+                "title": "\u56DB\u5C4A"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 867,
+        "answerData": {
+            "qstn": "\u5236\u5B9A\u5B9E\u65BD\u201C\u5341\u4E8C\u4E94\u201D\u89C4\u5212\uFF0C\u5FC5\u987B\u4EE5\u79D1\u5B66\u53D1\u5C55\u89C2\u4E3A\u4E3B\u9898\uFF0C\u4EE5\u52A0\u5FEB\u8F6C\u53D8\u7ECF\u6D4E\u53D1\u5C55\u65B9\u5F0F\u4E3A(\u00A0\u00A0)\uFF0C\u6DF1\u5316\u6539\u9769\u5F00\u653E\uFF0C\u4FDD\u969C\u548C\u6539\u5584\u6C11\u751F\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u4E3B\u8F74\u3000"
+            }, {
+                "score": 1,
+                "title": "\u4E3B\u7EBF\u3000"
+            }, {
+                "score": 0,
+                "title": "\u4E3B\u4F53"
+            }, {
+                "score": 0,
+                "title": "\u4E3B\u9898"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 832,
+        "answerData": {
+            "qstn": "\u5FC5\u987B\u575A\u6301\u4E00\u767E\u5E74\u4E0D\u52A8\u6447\u7684\u7ACB\u56FD\u4E4B\u672C\u201C\u56DB\u9879\u57FA\u672C\u539F\u5219\u201D\u662F(\u00A0\u00A0)\u6700\u5148\u63D0\u51FA\u7684\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u6BDB\u6CFD\u4E1C\u3000\u3000"
+            }, {
+                "score": 0,
+                "title": "\u5468\u6069\u6765\u3000"
+            }, {
+                "score": 1,
+                "title": "\u9093\u5C0F\u5E73\u3000"
+            }, {
+                "score": 0,
+                "title": "\u6C5F\u6CFD\u6C11"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 839,
+        "answerData": {
+            "qstn": "1980\u5E743\u670815\u65E5\uFF0C\u4E2D\u5171\u4E2D\u592E\u516C\u5E03\u7684\u300A\u5173\u4E8E\u515A\u5185\u653F\u6CBB\u751F\u6D3B\u7684\u82E5\u5E72\u51C6\u5219\u300B\u5171(\u00A0\u00A0)\u6761\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "\u5341\u4E8C"
+            }, {
+                "score": 0,
+                "title": "\u5341\u3000"
+            }, {
+                "score": 0,
+                "title": "\u516B"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 789,
+        "answerData": {
+            "qstn": "\u4E2D\u56FD\u5171\u4EA7\u515A\u515A\u5458\u662F\u4E2D\u56FD\u5DE5\u4EBA\u9636\u7EA7\u7684\u6709(\u00A0\u00A0)\u89C9\u609F\u7684\u5148\u950B\u6218\u58EB\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u793E\u4F1A\u4E3B\u4E49\u3000\u00A0"
+            }, {
+                "score": 1,
+                "title": "\u5171\u4EA7\u4E3B\u4E49"
+            }, {
+                "score": 0,
+                "title": "\u653F\u6CBB\u601D\u60F3"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 798,
+        "answerData": {
+            "qstn": "1985\u5E74\uFF0C\u4EE5(\u00A0\u00A0)\u4E3A\u91CD\u5FC3\u7684\u7ECF\u6D4E\u4F53\u5236\u6539\u9769\u5728\u4E2D\u56FD\u5168\u9762\u5F00\u5C55\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u4F01\u4E1A"
+            }, {
+                "score": 1,
+                "title": "\u57CE\u5E02"
+            }, {
+                "score": 0,
+                "title": "\u519C\u6751"
+            }, {
+                "score": 0,
+                "title": "\u57CE\u4E61"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 797,
+        "answerData": {
+            "qstn": "1936\u5E7410\u6708\uFF0C\u4E2D\u56FD\u5DE5\u519C\u7EA2\u519B\u7B2C\u4E00\u65B9\u9762\u519B\u540C\u7EA2\u4E8C\u3001\u56DB\u65B9\u9762\u519B\u5728\u54EA\u91CC\u4F1A\u5E08\uFF1F(\u00A0\u00A0)",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u897F\u5EB7\u7684\u7518\u5B5C\u4E00\u5E26"
+            }, {
+                "score": 1,
+                "title": "\u7518\u8083\u4F1A\u5B81"
+            }, {
+                "score": 0,
+                "title": "\u7518\u8083\u5E73\u51C9"
+            }, {
+                "score": 0,
+                "title": "\u7518\u8083\u5929\u6C34"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 836,
+        "answerData": {
+            "qstn": "1979\u5E743\u6708\uFF0C\u9093\u5C0F\u5E73\u5728(\u00A0\u00A0)\u4E0A\u63D0\u51FA\u575A\u6301\u793E\u4F1A\u4E3B\u4E49\u9053\u8DEF\u3001\u575A\u6301\u65E0\u4EA7\u9636\u7EA7\u4E13\u653F\u3001\u575A\u6301\u5171\u4EA7\u515A\u7684\u9886\u5BFC\u3001\u575A\u6301\u9A6C\u5217\u4E3B\u4E49\u6BDB\u6CFD\u4E1C\u601D\u60F3\u56DB\u9879\u57FA\u672C\u539F\u5219\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 1,
+                "title": "\u515A\u7684\u7406\u8BBA\u5DE5\u4F5C\u52A1\u865A\u4F1A"
+            }, {
+                "score": 0,
+                "title": "\u4E2D\u592E\u5168\u4F1A\u3000"
+            }, {
+                "score": 0,
+                "title": "\u4E2D\u592E\u653F\u6CBB\u5C40\u6269\u5927\u4F1A"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 810,
+        "answerData": {
+            "qstn": "\u4EE51992\u5E74\u521D\u9093\u5C0F\u5E73\u53D1\u8868\u5357\u65B9\u8C08\u8BDD\u548C\u515A\u7684(\u00A0\u00A0)\u4E3A\u6807\u5FD7\uFF0C\u4E2D\u56FD\u793E\u4F1A\u4E3B\u4E49\u6539\u9769\u5F00\u653E\u548C\u73B0\u4EE3\u5316\u5EFA\u8BBE\u4E8B\u4E1A\u8FDB\u5165\u65B0\u7684\u53D1\u5C55\u9636\u6BB5\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u5341\u4E09\u5927\u3000"
+            }, {
+                "score": 1,
+                "title": "\u5341\u56DB\u5927"
+            }, {
+                "score": 0,
+                "title": "\u5341\u4E94\u5927"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }, {
+        "answerId": 800,
+        "answerData": {
+            "qstn": "1981\u5E746\u6708\uFF0C\u515A\u7684(\u00A0\u00A0)\u901A\u8FC7\u300A\u5173\u4E8E\u5EFA\u56FD\u4EE5\u6765\u515A\u7684\u82E5\u5E72\u5386\u53F2\u95EE\u9898\u7684\u51B3\u8BAE\u300B\u3002",
+            "analysis": "",
+            "optn": [{
+                "score": 0,
+                "title": "\u5341\u4E00\u5C4A\u4E09\u4E2D\u5168\u4F1A"
+            }, {
+                "score": 0,
+                "title": "\u5341\u4E00\u5C4A\u4E94\u4E2D\u5168\u4F1A"
+            }, {
+                "score": 1,
+                "title": "\u5341\u4E00\u5C4A\u516D\u4E2D\u5168\u4F1A"
+            }]
+        },
+        "activityId": "1143324237579166666",
+        "answerCode": "10",
+        "answerScore": 3
+    }],
+    "message": "\u8BF7\u6C42\u6210\u529F",
+    "success": true
+}
