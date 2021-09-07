@@ -1,4 +1,4 @@
-package com.cmbcc;
+package com.vector;
 
 import java.util.HashSet;
 import java.util.Scanner;

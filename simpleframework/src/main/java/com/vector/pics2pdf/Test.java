@@ -1,6 +1,5 @@
-package com.cmbcc.pics2pdf;
+package com.vector.pics2pdf;
 
-import jodd.util.StringUtil;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

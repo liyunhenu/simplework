@@ -1,6 +1,6 @@
 package com.serverlet;
 
-import com.cmbcc.pics2pdf.Img2PdfUtil;
+import com.vector.pics2pdf.Img2PdfUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;

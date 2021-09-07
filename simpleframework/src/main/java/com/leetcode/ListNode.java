@@ -1,16 +1,21 @@
 package com.leetcode;
 
+
 public class ListNode {
 
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     public ListNode() {
     }
 
-    ListNode(int x) {
-        val = x;
-        next=null;
+    public ListNode(int val) {
+        this.val = val;
+    }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
 
     public int getVal() {
@@ -27,10 +32,5 @@ public class ListNode {
 
     public void setNext(ListNode next) {
         this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return  val +"->";
     }
 }

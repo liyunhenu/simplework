@@ -1,13 +1,11 @@
-package com.cmbcc.pics2pdf;
+package com.vector.pics2pdf;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.Image;
 import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpHeaders;
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 
 /**

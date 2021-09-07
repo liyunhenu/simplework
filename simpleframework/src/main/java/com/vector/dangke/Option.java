@@ -1,4 +1,4 @@
-package com.cmbcc.dangke;
+package com.vector.dangke;
 
 public enum Option {
     FIRST("A"),

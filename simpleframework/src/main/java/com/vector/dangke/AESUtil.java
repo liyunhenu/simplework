@@ -1,4 +1,4 @@
-package com.cmbcc.dangke;
+package com.vector.dangke;
 
 import org.apache.commons.codec.binary.Hex;
 import org.slf4j.Logger;
