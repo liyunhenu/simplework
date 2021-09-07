@@ -5,9 +5,9 @@ import com.jcraft.jsch.*;
 import java.io.InputStream;
 
 public class Exec{
-    private static final String USER="liyun";
-    private static final String PASSWORD="mskjly@2017";
-    private static final String HOST="172.203.148.219";
+    private static final String USER="111";
+    private static final String PASSWORD="ppp";
+    private static final String HOST="0.0.0.0";
     private static final int DEFAULT_SSH_PORT=22;
 
     public static void main(String[] arg){
