@@ -1,4 +1,4 @@
-package com.leetcode.stringtwointeger;
+package com.leetcode.j0008stringtwointeger;
 
 import java.util.HashMap;
 import java.util.Map;

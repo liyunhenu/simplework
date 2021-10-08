@@ -1,4 +1,4 @@
-package com.leetcode.wordPattern;
+package com.leetcode.j0290wordPattern;
 
 public class Test {
 

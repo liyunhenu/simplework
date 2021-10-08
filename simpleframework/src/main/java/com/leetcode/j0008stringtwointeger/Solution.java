@@ -1,4 +1,4 @@
-package com.leetcode.stringtwointeger;
+package com.leetcode.j0008stringtwointeger;
 
 class Solution {
     public static int myAtoi(String s) {

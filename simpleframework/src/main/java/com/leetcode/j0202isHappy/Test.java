@@ -1,4 +1,4 @@
-package com.leetcode.isHappy;
+package com.leetcode.j0202isHappy;
 
 public class Test {
 

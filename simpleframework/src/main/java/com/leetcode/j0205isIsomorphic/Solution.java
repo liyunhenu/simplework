@@ -1,4 +1,4 @@
-package com.leetcode.isIsomorphic;
+package com.leetcode.j0205isIsomorphic;
 
 import java.util.HashMap;
 import java.util.Map;

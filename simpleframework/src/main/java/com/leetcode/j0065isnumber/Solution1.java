@@ -1,4 +1,4 @@
-package com.leetcode.isnumber;
+package com.leetcode.j0065isnumber;
 
 import java.util.HashMap;
 import java.util.Map;

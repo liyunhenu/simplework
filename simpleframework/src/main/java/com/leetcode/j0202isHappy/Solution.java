@@ -1,4 +1,4 @@
-package com.leetcode.isHappy;
+package com.leetcode.j0202isHappy;
 
 import java.util.HashSet;
 import java.util.Set;
