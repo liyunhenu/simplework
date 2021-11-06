@@ -90,8 +90,10 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-        String beginWord = "hit", endWord = "cog";
-        List<String> wordList =new ArrayList<>(Arrays.asList("hot","dot","dog","lot","log","cog"));
+        String beginWord = "red", endWord = "tax";
+        String[] strs = new String[]{"ted","tex","red","tax","tad","den","rex","pee"};
+        List<String> wordList = new ArrayList<>();
+        Collections.addAll(wordList, strs);
         Solution1 solution=new Solution1();
         List<List<String>> result=solution.findLadders(beginWord,endWord,wordList);
         for (List list:result) {
