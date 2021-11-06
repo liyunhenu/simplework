@@ -31,7 +31,9 @@ public class Solution1 {
 
         PriorityQueue<ListNode> priorityQueue=new PriorityQueue<>(comparator);
         for (int i = 0; i < lists.length; i++) {
-            priorityQueue.offer(lists[i]);
+            if(lists[i]!=null){
+                priorityQueue.offer(lists[i]);
+            }
         }
         while (priorityQueue.size()>0){
             ListNode nextNode=priorityQueue.poll();
@@ -54,7 +56,7 @@ public class Solution1 {
         ListNodeUtil.printList(head1);
         ListNode head2 = ListNodeUtil.createLinkedList(new int[]{1, 3, 4});
         ListNodeUtil.printList(head2);
-        ListNode head3 = ListNodeUtil.createLinkedList(new int[]{2, 6});
+        ListNode head3 = ListNodeUtil.createLinkedList(new int[]{});
         ListNodeUtil.printList(head3);
         ListNode[] lists = new ListNode[]{head1, head2, head3};
         Solution1 solution = new Solution1();
