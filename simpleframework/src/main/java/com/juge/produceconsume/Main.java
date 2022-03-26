@@ -57,7 +57,7 @@ public class Main {
     public  void consume() throws InterruptedException {
         synchronized(BUFFER_OBJECT) {
             while (list.size() <= 0) {
-                //System.out.println("biu");
+                System.out.println( Thread.currentThread()+"biu");
                 BUFFER_OBJECT.wait();
             }
             //do st
@@ -69,14 +69,14 @@ public class Main {
 
 
     public static void main(String[] arg) throws Exception {
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(10, 10, 10000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(100), new CustomizableThreadFactory("myThread"), new ThreadPoolExecutor.AbortPolicy());
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(15, 15, 10000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(100), new CustomizableThreadFactory("myThread"), new ThreadPoolExecutor.AbortPolicy());
         Main main=new Main();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             threadPoolExecutor.submit(main.newConsumeTask());
         }
-        //Thread.sleep(1000);
+        Thread.sleep(1000);
         System.out.println("消费线程已经等待就绪");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             threadPoolExecutor.submit(main.newProduceTask());
         }
 

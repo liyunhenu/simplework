@@ -55,11 +55,11 @@ public class Main1 {
         Main1 mainObject = new Main1();
         //ThreadPoolExecutor pool = new ThreadPoolExecutor(3, 20, 1000L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(100), new CustomizableThreadFactory("my"), new ThreadPoolExecutor.AbortPolicy());
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 20; i++) {
             new Thread(mainObject.consume()).start();
         }
         //Thread.sleep(1000);
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 20; i++) {
             new Thread(mainObject.produce()).start();
         }
 
